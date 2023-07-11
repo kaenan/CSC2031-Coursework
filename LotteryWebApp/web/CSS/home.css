@@ -1,0 +1,40 @@
+h1 {
+    margin: auto;
+    text-align: center;
+}
+
+.login-create-container{
+    display: block;
+    margin: auto;
+    width: 250px;
+    height: auto;
+    justify-content: center;
+    border-radius: 20px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    padding: 15px 75px 15px 75px;
+}
+
+.left-box, .right-box {
+    display: inherit;
+    width: inherit;
+}
+
+form {
+    display: inherit;
+}
+
+input {
+    display: inherit;
+}
+
+label{
+    display: inherit;
+}
+
+.role-type {
+    display: inline;
+    margin-bottom: 2px;
+}
+
