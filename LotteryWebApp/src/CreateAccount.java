@@ -97,7 +97,7 @@ public class CreateAccount extends HttpServlet {
             se.printStackTrace();
             // display error.jsp page with given message if unsuccessful
             RequestDispatcher dispatcher = request.getRequestDispatcher("/error.jsp");
-            request.setAttribute("message", "This username/password combination already exists. Please try again");
+            request.setAttribute("message", "That username already exists. Please try again");
             dispatcher.forward(request, response);
         }
         finally{

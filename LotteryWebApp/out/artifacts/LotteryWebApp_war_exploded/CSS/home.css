@@ -73,12 +73,37 @@ h2 {
     box-shadow: 0 0 40px 2px rgba(0,0,0,0.6);
 }
 
+.user-account-information {
+    display: block;
+    margin: auto;
+    width: fit-content;
+    height: auto;
+    z-index: 1;
+    justify-content: center;
+    border-radius: 20px;
+    border-color: #fa6b71;
+    border-style: solid;
+    border-width: 2px;
+    padding: 15px 50px 15px 50px;
+    position: inherit;
+
+    background-color: #facad4;
+    -webkit-box-shadow:0 0 40px 2px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0 0 40px 2px rgba(0,0,0,0.6);
+    box-shadow: 0 0 40px 2px rgba(0,0,0,0.6);
+}
+
 .error {
     margin: auto;
     justify-content: center;
     display: flex;
     height: 50%;
     padding-bottom: 5%;
+}
+
+.draw-numbers{
+    display: flex;
+    margin-bottom: 2.5%;
 }
 
 .left-box, .right-box {
@@ -121,6 +146,12 @@ input {
     font-size: inherit;
 }
 
+.number-input {
+    height: inherit;
+    width: auto;
+    margin: 0 2px 0 0;
+}
+
 .input-text-box{
     width: 100%;
 }
@@ -128,6 +159,11 @@ input {
 label{
     display: inherit;
     margin-bottom: 1%;
+}
+
+.label-title {
+    text-align: center;
+    font-weight: bold;
 }
 
 .role-type {
