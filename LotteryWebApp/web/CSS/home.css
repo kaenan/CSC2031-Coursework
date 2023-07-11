@@ -1,24 +1,111 @@
-h1 {
-    margin: auto;
-    text-align: center;
+@font-face {
+    font-family: Lobster;
+    src: url("../fonts/Lobster-Regular.ttf");
 }
 
-.login-create-container{
+@font-face {
+    font-family: Oxygen;
+    src: url("../fonts/Oxygen-Regular.ttf");
+}
+
+body {
+    font-family: Oxygen;
+}
+
+.container {
+    height: 100%;
+    width: auto;
+    position: relative;
+}
+
+.background-image {
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+
+    background-image: url("../images/HTMLBackground.jpg");
+    background-color: #ffffff;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+}
+
+h1 {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    text-align: center;
+    position: inherit;
+
+    font-family: Lobster;
+    font-size: 90px;
+}
+
+h2 {
+    text-align: center;
+    font-family: Lobster;
+    font-size: xx-large;
+
+    margin: 10px 0 10px 0
+}
+
+.login-create-container {
     display: block;
     margin: auto;
     width: 250px;
     height: auto;
+    z-index: 1;
     justify-content: center;
     border-radius: 20px;
-    border-color: black;
+    border-color: #fa6b71;
     border-style: solid;
     border-width: 2px;
-    padding: 15px 75px 15px 75px;
+    padding: 15px 50px 15px 50px;
+    position: inherit;
+
+    background-color: #facad4;
+    -webkit-box-shadow:0 0 40px 2px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0 0 40px 2px rgba(0,0,0,0.6);
+    box-shadow: 0 0 40px 2px rgba(0,0,0,0.6);
+}
+
+.error {
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    height: 50%;
+    padding-bottom: 5%;
 }
 
 .left-box, .right-box {
     display: inherit;
     width: inherit;
+}
+
+.left-box {
+    display: none;
+}
+
+.submit-button {
+    width: 100%;
+    height: 3%;
+    border-radius: 15px;
+    border-width: 0;
+    background-color: #bf000a;
+    color: white;
+    margin-top: 5%;
+}
+
+.show-other-div-button{
+    background-color: transparent;
+    border-width: 0;
+    color: #bf000a;
+    padding: 0;
+    font-size: inherit;
 }
 
 form {
@@ -27,14 +114,40 @@ form {
 
 input {
     display: inherit;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border-width: 0;
+    height: 2.5%;
+    font-size: inherit;
+}
+
+.input-text-box{
+    width: 100%;
 }
 
 label{
     display: inherit;
+    margin-bottom: 1%;
 }
 
 .role-type {
-    display: inline;
-    margin-bottom: 2px;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+img {
+    width: auto;
+    z-index: 1;
+    position: relative;
+}
+
+a {
+    display: block;
+    text-align: center;
+    background-color: #bf000a;
+    color: white;
+    border-radius: 15px;
+    text-decoration: none;
+    padding: 5px 0 5px 0;
 }
 
