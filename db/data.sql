@@ -9,7 +9,7 @@ PRIMARY KEY (Username, Pwd)
 );
 
 INSERT INTO userAccounts VALUES
-('Sara','Fletcher','sara.fletcher@myemail.co.uk','44-0191-5678901','sarafletcher','sFletch123');
+('Kaenan','Sutcliffe','kaenansutcliffe@myemail.co.uk','44-0191-5678901','kaenan1','password1');
 
 
 
